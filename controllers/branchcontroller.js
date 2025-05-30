@@ -1,5 +1,5 @@
-import  Branch from '../models/branch'
- import Customer from '../models/customer'
+import  Branch from '../models/branch.js'
+ import Customer from '../models/customer.js'
 
 const createBranch = async (req, res) => {
   try {

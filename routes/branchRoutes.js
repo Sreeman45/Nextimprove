@@ -4,7 +4,7 @@ import {
   createBranch,
   getBranches,
   updateBranch
-} from '../controllers/branchcontroller'
+} from '../controllers/branchcontroller.js'
 
 router.post('/', createBranch);
 router.get('/', getBranches);
